@@ -1,0 +1,6 @@
+LoyaltyProgramID,ProgramName,ProgramTier,PointsAccrued
+1,Bronze Rewards,Bronze,150
+2,Silver Advantage,Silver,300
+3,Gold Club,Gold,500
+4,Platinum Elite,Platinum,700
+5,Diamond VIP,Diamond,1000
