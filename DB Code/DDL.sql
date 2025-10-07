@@ -14,6 +14,7 @@ CREATE TABLE DimCustomer (
     CustomerID INT PRIMARY KEY autoincrement start 1 increment 1,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
+	PhoneNumber VARCHAR(50),
     Gender VARCHAR(10),
     DateOfBirth DATE,
     Email VARCHAR(100),
