@@ -14,6 +14,7 @@ CREATE TABLE DimCustomer (
     CustomerID INT PRIMARY KEY autoincrement start 1 increment 1,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
+	PhoneNumber VARCHAR(50),
     Gender VARCHAR(10),
     DateOfBirth DATE,
     Email VARCHAR(100),
@@ -43,8 +44,8 @@ CREATE TABLE DimStore (
     Address VARCHAR(255),
     City VARCHAR(50),
     State VARCHAR(50),
-    ZipCode VARCHAR(10),
     Country VARCHAR(50),
+	Region VARCHAR(50),
     ManagerName VARCHAR(100)
 );
 
