@@ -44,8 +44,8 @@ CREATE TABLE DimStore (
     Address VARCHAR(255),
     City VARCHAR(50),
     State VARCHAR(50),
-    ZipCode VARCHAR(10),
     Country VARCHAR(50),
+	Region VARCHAR(50),
     ManagerName VARCHAR(100)
 );
 
